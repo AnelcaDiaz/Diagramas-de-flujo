@@ -104,35 +104,25 @@
 # else:
 #     print(f"{nume} no es divisible entre {num2} y {num4}")
 
-# print("EJERCICIOS CON LISTAS Y CON CONDICIONALES ")
-# print("Punto 11: crear listas y mostrar mayor que 10 o menor de 10")
+print("EJERCICIOS CON LISTAS Y CON CONDICIONALES ")
+print("Punto 11: crear listas y mostrar mayor que 10 o menor de 10")
 
-# lista = [5, 10, 5, 6, 15]
 
-# if lista[0] > 10:
-#     print(f"El número {lista[0]} es mayor a 10")
-# elif lista[0] < 10:
-#     print(f"El número {lista[0]} es menor a 10")
 
-# if lista[1] > 10:
-#     print(f"El número {lista[1]} es mayor a 10")
-# elif lista[1] < 10:
-#     print(f"El número {lista[1]} es menor a 10")
+list3=input("Ingrese un numero para la lista: ")
+lis5=int(input("Ingresa un segundo numero para la lista: "))
+lis8=input("Ingrese un tercer numero para la lista: ")
+lis4=input("Ingresa un cuarto numero para la lista: ")
+lis10=input("Ingrese un quinto numero para la lista: ")
+lista20=[list3,lis5,lis8,lis4,lis10]
+print(lista20)
 
-# if lista[2] > 10:
-#     print(f"El número {lista[2]} es mayor a 10")
-# elif lista[2] < 10:
-#     print(f"El número {lista[2]} es menor a 10")
+if lista20[2]>10:
+    print(f"El tercer numero que ingreso es {lista20[2]} este es mayor a 10")
+    
+else:
+    print(f"El tercer numero que ingreso {lista20[2]} es menor o igual a 10")
 
-# if lista[3] > 10:
-#     print(f"El número {li#sta[3]} es mayor a 10")
-# elif lista[3] < 10:
-#     print(f"El número {lista[3]} es menor a 10")
-
-# if lista[4] > 10:
-#     print(f"El número {lista[4]} es mayor a 10")
-# elif lista[4] < 10:
-#     print(f"El número {lista[4]} es menor a 10")
 
 # print("Punto 12: Verifica si el número 7 está en la lista [3, 5, 7, 9]. Si está, muestra (Está en la lista), si no, muestra (No está en la lista), ")   
 
@@ -142,7 +132,7 @@
 # else:
 #     print("el numero 7 no esta en la lista")
     
-# print("Punto 13: Suma los dos primeros elementos de la lista [4, 6, 2, 8]. Si la suma es mayor que 10, muestra “Suma alta”, de lo contrario, muestra “Suma baja”. ")
+# # print("Punto 13: Suma los dos primeros elementos de la lista [4, 6, 2, 8]. Si la suma es mayor que 10, muestra “Suma alta”, de lo contrario, muestra “Suma baja”. ")
 
 # lista3=[4,6,2,8]
 # suma= lista3[0]+lista3[1]
@@ -190,14 +180,14 @@
 # else:
 #     print("edad menor o igual a 30")
     
-print("Punto 18:  Convierte la tupla (1, 2, 3) a lista, cambia el segundo valor a 10 solo si es igual a 2, luego vuelve a convertirla en tupla y muéstrala.")
+# print("Punto 18:  Convierte la tupla (1, 2, 3) a lista, cambia el segundo valor a 10 solo si es igual a 2, luego vuelve a convertirla en tupla y muéstrala.")
 
-tup=(1,2,3)
-lista=list(tup)
-if lista[1]==2:
-    lista[1]==10
-tup=tuple(lista)
-print(tup)
+# tup=(1,2,3)
+# lista=list(tup)
+# if lista[1]==2:
+#     lista[1]==10
+# tup=tuple(lista)
+# print(tup)
 
 # print("Punto 19: Dada la tupla (4, 9), accede al segundo valor. Si es mayor que 5, muestra “Coordenada alta”, si no, “Coordenada baja”. ")
 
